@@ -15,8 +15,11 @@ void main(List<String> arguments) {
  int a = 5;
 int b = 5;
  int ab = a++ - --b - ++a + ++b - b-- - ++a;
- print(ab);
+ print("ab: ${ab}, a: ${a}, b: ${b}");
  //abd
+  //bcd
+  //cds
+  print (a+b);
 
 
 }
